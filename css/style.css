@@ -1,0 +1,78 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/button.css");
+@import url("components/card.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-image: url('../images/factory.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0px;
+  opacity: 0.9;
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.banner p {
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #3E3B38;
+}
+
+.footer {
+  background-color: #3E3B38;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer a {
+  color: #5B4237;
+  font-size: 33px;
+  margin:  4px;
+}
+
+.footer p {
+  color: #d3d2d1;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  padding-top: 28px;
+}
